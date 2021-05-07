@@ -1,0 +1,1062 @@
+/* 1 Reset --------------------- */
+
+/* 2 Font ---------------------- */
+body{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Iowan Old Style',serif;
+
+    line-height: 1.6;
+    font-weight: normal;
+    color: #505050;
+    animation: fade-in 2s ease-in-out 0s 1 normal;
+}
+
+/* 3 Link Color ------------------*/
+a{
+    color: #505050;
+    text-decoration: none;
+}
+/* 3-1 Home ------------------*/
+
+/* glo-nav common */
+.nav a:link , .nav a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover, .nav a:active{
+    color: #BCBCBC;
+    text-decoration: none;
+}
+
+.home #newinfo div:hover{
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+.home #newinfo li:hover{
+    color: #FFFFFF;
+    background-color: #BCBCBC;
+    transition: all 0.3s ease;
+}
+
+.home #newinfo ul a:hover, .home #newinfo ul a:active{
+    color: #BCBCBC;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* 3-2 Hajimeni ------------------*/
+
+/* 3-3 factory ------------------*/
+
+/* 3-4 products ------------------*/
+
+/* 3-5 special ------------------*/
+
+/* 3-6 company ------------------*/
+.company .nav a:link , .company .nav a:visited{
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+.company .nav a:hover, .company .nav a:active{
+    color: #BCBCBC;
+    text-decoration: none;
+}
+
+.company a:hover, .company a:active{
+    color: #BCBCBC;
+    text-decoration: none;
+}
+
+/* 3-7 seisansha ------------------*/
+
+/* 3-8 news ------------------*/
+.news a:link , .news a:visited{
+    color: #8C8C8C;
+    text-decoration: none;
+}
+.news a:hover{
+    color: #BCBCBC !important;
+    text-decoration: none;
+}
+.news .nextprev a:hover{
+    color: #BCBCBC !important;
+    text-decoration: none;
+}
+
+.blog a:link , .blog a:visited{
+    color: #8C8C8C;
+    text-decoration: none;
+}
+
+.blog a:hover{
+    color: #BCBCBC !important;
+    text-decoration: none;
+}
+.blog .nextprev a:hover{
+    color: #BCBCBC !important;
+    text-decoration: none;
+}
+
+#newblo a:link, #newblo a:visited{
+    color:#8C8C8C;
+    text-decoration: none;
+}
+#newblo a:hover{
+    color: #BCBCBC !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+/* 3-9 blog ------------------*/
+/* 4 header ------------------------ */
+/* 4-0 header common ------------------ */
+/* slider */
+@font-face {
+    font-family: 'slick';
+    src: url('../fonts/slick.woff') format('woff');
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.slick-track{
+    height: 100vh;
+}
+.slide1{
+    background: url(../img/FV4.jpg) center center no-repeat;
+    background-size: cover;
+}
+.slide2{
+    background: url(../img/FV5.jpg) center center no-repeat;
+    background-size: cover;
+}
+.slide3{
+    background: url(../img/FV3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.slide4{
+    background: url(../img/FV2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* global navigation */
+.glonav{
+    width: 100%;
+    height: 67px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+header nav ul{
+    justify-content: space-between;
+    letter-spacing: 0.3rem;
+    display: flex;
+    width: 750px;
+    height:16px;
+}
+/* Takalogo */
+header h1{
+    position: absolute;
+    top: 15px;
+    left: 46px;
+    width: 100px;
+    height: 37px;
+}
+
+header h1 img{
+    width: 100px;
+    height: auto;
+}
+
+header nav{
+    width: 750px;
+    height: 16px;
+    position: absolute;
+    right: 48px;
+    top: 20px;
+}
+
+/* 4-1 Home ------------------*/
+.home header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home header .down-arrow{
+    position: absolute;
+    left: calc(50% - 18px);
+    bottom: 55px;
+    width: 36px;
+    height: 31px;
+}
+
+/* 4-2 Hajimeni ------------------*/
+.hajimeni header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: url(../img/hajimeni.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* 4-3 Factory ------------------*/
+.factory header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: url(../img/factory-main.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* 4-4 Products ------------------*/
+.products header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: url(../img/rice.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+/* 4-5 Special ------------------*/
+.special header{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(../img/tokubetsu-main.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.special #song{
+    width: 880px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+.special header #song p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    line-height: 4;
+    letter-spacing: 0.25rem;
+}
+.special header #song #para2{
+    margin: 0 50px;
+}
+
+/* 4-6 company ------------------*/
+.company header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: url(../img/company-main.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* 4-7 seisansha ------------------*/
+.seisansha header{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/seisansha-main.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* 4-8 news ------------------*/
+.news header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+/* 4-9 blog ------------------*/
+.blog header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+/* 5 section ------------------------ */
+/* 5-0 Common ------------------------ */
+
+/* 5-1 Home ------------------*/
+.home #newinfo{
+    width: 670px;
+    margin: 96px auto;
+}
+
+.home #newinfo h2{
+    font-size: 22px;
+    letter-spacing: 13px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.home #newinfo dl {
+    width: 653px;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .news1 a{
+    position: absolute;
+    width: 670px;
+    height: 25px;
+    top: 15px;
+    left: 0;
+}
+
+.home .news2 a{
+    position: absolute;
+    width: 670px;
+    height: 25px;
+    bottom: 15px;
+    left: 0;
+}
+
+.home #newinfo dl dt{
+    width: 120px;
+}
+
+.home #newinfo .label{
+    padding: 3px 1px 0 0;
+    width: 70px;
+    height: 19px;
+    color: #FFF;
+    font-size: 13px;
+    /* border: 1px #505050 solid; */
+    background-color: #ACACAC;
+    text-align: center;
+}
+
+.home #newinfo .title{
+    text-indent: 1.5rem;
+    width: 450px;
+}
+
+.home .news1{
+    position: relative;
+    border-top: 1px #505050 solid;
+    padding-top: 15px;
+    padding-bottom: 24px;
+}
+
+.home .news2{
+    position: relative;
+    border-bottom: 1px #505050 solid;
+    padding-bottom: 15px;
+}
+
+.home #newinfo ul{
+    width: 389px;
+    margin: 47px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home #newinfo ul li{
+    width: 146px;
+    text-align: center;
+    border: 1px #505050 solid;
+}
+
+.home #newinfo ul li a{
+    width: 146px;
+    height: 30px;
+}
+.home #newinfo ul .oshirase{
+    position: relative;
+}
+.home #newinfo ul .oshirase a{
+    width: 148px;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home #newinfo ul .burogu{
+    position: relative;
+}
+.home #newinfo ul .burogu a{
+    width: 148px;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* main menu --------------------- */
+.home #menu{
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+    line-height: 150px;
+}
+
+.home #menu .menu-bg:hover{
+    opacity: 0.6;
+}
+.home #menu section{
+    position: relative;
+    background-color: #000;
+}
+/* menu hajimeni -------------- */
+.home #menu .hajimeni {
+    position: relative;
+    opacity: 1;
+    width: 100%;
+    height: 424px;
+    margin-bottom: 55px;
+}
+.home #menu .hajimeni .menu-bg{
+    background: url(../img/menu-hajimeni.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.home #menu .menu-bg{
+    width: 100%;
+    height: 424px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    opacity: 1;
+    transition: all 1s ease;
+}
+.home #menu .hajimeni h3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    background-color: #FFFFFF;
+    text-indent: 1.7rem;
+}
+
+/* menu factory -------------- */
+.home #menu .factory{
+    position: relative;
+    width: 100%;
+    height: 424px;
+    margin-bottom: 55px;
+}
+
+.home #menu .factory .menu-bg{
+    background: url(../img/menu-seisan.jpg) center center no-repeat;
+    background-size: cover;
+}
+.home #menu .factory h3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    background-color: #FFFFFF;
+    text-indent: 1.7rem;
+}
+
+/* menu products -------------- */
+.home #menu .products{
+    position: relative;
+    /* background: url(../img/menu-shohin.jpg) center center no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 424px;
+    margin-bottom: 55px;
+}
+
+.home #menu .products .menu-bg{
+    background: url(../img/menu-shohin.jpg) center center no-repeat;
+    background-size: cover;
+}
+.home #menu .products h3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    background-color: #FFFFFF;
+    text-indent: 1.8rem;
+}
+
+/* menu special -------------- */
+.home #menu .special{
+    position: relative;
+    /* background: url(../img/menu-tokubetsu.jpg) center center no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 424px;
+}
+
+.home #menu .special .menu-bg{
+    background: url(../img/menu-tokubetsu.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.home #menu .special h3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    background-color: #FFFFFF;
+    text-indent: 0.9rem;
+}
+
+/* 5-2 Hajimeni ------------------*/
+.hajimeni #main {
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 0.7rem;
+    text-align: center;
+    margin-top: 70px;
+}
+.fixed{
+    position: fixed;
+}
+.fade-in{
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.hajimeni #main p{
+    font-size: 18px;
+    letter-spacing: 0.42rem;
+    text-align: center;
+    line-height: 65px;
+    margin: 70px auto;
+    opacity: 0;
+    animation-delay: 0.4s;
+}
+
+/* 5-3 Factory ------------------*/
+.factory #seisan{
+    position: relative;
+    margin-top: 70px;
+}
+.factory #seisan h2{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.factory #seisan h3{
+    font-size: 20px;
+    letter-spacing: 0.32rem;
+    text-align: center;
+}
+
+.factory #seisan p{
+    font-size: 16px;
+    letter-spacing: 0.26rem;
+    line-height: 38px;
+    text-align: center;
+    padding: 40px 0 70px;
+}
+.factory #seisan .seisan1{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+    animation-delay: 0.4s;
+}
+
+.factory #seisan .pic1{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan1.jpg) center  center no-repeat;
+    background-size: cover;
+}
+
+.factory #seisan .seisan2{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+}
+
+.factory #seisan .pic2{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan2.jpg) center  center no-repeat;
+    background-size: cover;
+}
+.factory #seisan .seisan3{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+}
+
+.factory #seisan .pic3{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan3.jpg) center  center no-repeat;
+    background-size: cover;
+}
+
+.factory #seisan .seisan4{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+}
+
+.factory #seisan .pic4{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan4.jpg) center  center no-repeat;
+    background-size: cover;
+}
+
+.factory #seisan .seisan5{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+}
+
+.factory #seisan .pic5{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan5.jpg) center  center no-repeat;
+    background-size: cover;
+}
+
+.factory #seisan .seisan6{
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+}
+.factory #seisan .pic6{
+    width: 100%;
+    height: 455px;
+    background:url(../img/seisan6.jpg) center  center no-repeat;
+    background-size: cover;
+}
+
+/* 5-4 Products ------------------*/
+.products #list{
+    width: 772px;
+    height: 2012px;
+    margin: 70px auto;
+}
+
+.products #list img{
+    width: 182px;
+    height: auto;
+}
+.products #list figure{
+    width: 182px;
+    height: auto;
+}
+
+.products #list h2{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.products #list .text{
+    width: 512px;
+    height: 142px;
+}
+
+.products #list h3{
+    font-size: 21px;
+    letter-spacing: 0.1rem;
+    text-align: left;
+}
+.products #list p{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2;
+}
+/* picture size ------------------*/
+
+.products #list #uonuma{
+    width: 775px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+    opacity: 0;
+}
+.products #list #niigata{
+    width: 775px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+    opacity: 0;
+}
+.products #list #niigata-white{
+    width: 775px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+    opacity: 0;
+}
+.products #list #mochi{
+    width: 775px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto;
+    opacity: 0;
+}
+.products #list #shinnosuke{
+    width: 775px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: 115px auto 0;
+    opacity: 0;
+}
+.products #list .text h3{
+    margin: 23px 0 30px 0;
+}
+
+/* 5-5 Special ------------------*/
+.special #main {
+    margin: 70px auto;
+}
+.special #main h2{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+.special #main p{
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    line-height: 2.5;
+    text-align: center;
+    margin: 95px auto 150px;
+    opacity: 0;
+}
+
+.special #main .seisansha{
+    width: 100%;
+    height: 277px;
+    background: url(../img/special1.jpg) top center no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+
+.special #rice h3{
+    font-size: 22px;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    margin: 23px 0 30px 0;
+}
+
+.special #rice p{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    line-height: 2;
+}
+.special #rice{
+    display: flex;
+    justify-content: space-between;
+    width: 775px;
+    height: 265px;
+    margin: 50px auto;
+    opacity: 0;
+}
+
+.special #rice #kome img{
+    width: 182px;
+    height: auto;
+}
+
+.special #rice .text{
+    width: 512px;
+    height: 142px;
+}
+
+/* 5-6 Company ------------------*/
+#company{
+    margin-top: 70px;
+}
+#company figure{
+    width: 100%;
+    height: 455px;
+    background: url(../img/hasakake.jpg) center center no-repeat;
+    background-size: cover;
+}
+#company h2{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin: 70px auto;
+}
+#company .annai{
+    width: 660px;
+    height: 532px;
+    margin: 150px auto 75px;
+    font-size: 17px;
+    letter-spacing: 0.42rem;
+    line-height: 1;
+}
+#company .annai dt{
+    width: 168px;
+    height: 20px;
+}
+
+#company .annai dd{
+    width: 498px;
+    height: 20px;
+}
+
+#company .annai #shamei{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #daihyo{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #address{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #tel{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #fax{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #mail{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #business{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#company .annai #asset{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+/* history ---------------------- */
+#history h3{
+    font-size: 26px;
+    letter-spacing: 0.7rem;
+    text-align: center;
+    margin-top: 100px;
+}
+#history .enkaku{
+    width: 658px;
+    height: 536px;
+    margin: 96px auto;
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+}
+
+#history .enkaku dt{
+    width: 169px;
+    height: 20px;
+}
+
+#history .enkaku dd{
+    width: 498px;
+    height: 20px;
+}
+
+#history .enkaku #history1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history4{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history5{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history6{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history7{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history8{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#history .enkaku #history9{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+/* access ------------------------ */
+#access{
+    width: 100%;
+    height: 473px;
+}
+#access h3{
+    font-size: 26px;
+    letter-spacing: 0.7rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+#access iframe{
+    width: 100%;
+    height: 470px;
+}
+
+/* 5-7 seisansha ------------------*/
+.seisansha #main {
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.seisansha #main h2{
+    font-size: 24px;
+    letter-spacing: 0.7rem;
+}
+
+.seisansha #main p{
+    font-size: 18px;
+    letter-spacing: 0.42rem;
+    text-align: center;
+    line-height: 65px;
+    opacity: 0;
+    animation-delay: 0.4s;
+}
+
+.seisansha #main .text1{
+    margin: 150px auto 0;
+    opacity: 0;
+}
+
+.seisansha #main .text2{
+    margin: 40px auto;
+    opacity: 0;
+}
+
+/* 5-8 news ------------------*/
+#newblo{
+    width: 866px;
+    height: 321px;
+    margin: 0 auto;
+}
+#newblo h2{
+    font-size: 26px;
+    letter-spacing: 0.38rem;
+    text-align: center;
+    margin: 0 auto 90px;
+}
+
+#newblo dl{
+    width: 500px;
+    margin: 0 auto 70px;
+    text-align: left;
+}
+
+#newblo dl dt{
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px;
+}
+
+#newblo dl .title{
+    font-size: 19px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 40px;
+}
+
+#newblo dl .text{
+    font-size: 15px;
+}
+
+#newblo p{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+}
+
+#newblo .nextprev{
+    width: 866px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* footer ------------------------ */
+footer{
+    width: 100%;
+    margin:250px 0 30px 0;
+    text-align: center;
+}
+
+footer h1 img{
+    width: 166px;
+    height: auto;
+}
+
+footer p{
+    padding-top: 50px;
+    font-size: 8px;
+}
